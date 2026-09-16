@@ -94,7 +94,7 @@ function get7zaPath() {
 }
 
 /**
- * Synchronizes and validates package versioning.
+ * Validates package versioning against versioning.ts to ensure they match.
  *
  * @returns {Promise<void>}
  */
@@ -103,7 +103,7 @@ async function syncVersion() {
     const packageJson = await fs.readJson("package.json");
     const expected = `v${packageJson.version}`;
     const versioningFile = await fs.readFile(path.resolve("./penrose/versioning.ts"), "utf8");
-    const match = versioningFile.match(/export const paradoxVersion = "(v\d+\.\d+\.\d+)";/);
+    const match = versioningFile.match(/export const paradoxVersion = "(v\d+\.\d+\.\d+(?:-[a-zA-Z0-9.-]+)?)";/);
 
     if (!match) exitWithError("Version pattern not found in versioning.ts");
     if (match[1] !== expected) exitWithError(`Version mismatch: package.json (${expected}) vs versioning.ts (${match[1]})`);
