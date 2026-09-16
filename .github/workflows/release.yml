@@ -44,4 +44,6 @@ jobs:
           tag_name: ${{ github.event.inputs.version }}
           name: Paradox-AntiCheat ${{ github.event.inputs.version }}
           body: ${{ github.event.inputs.description }}
-          files: build/*.mcpack
+          files: |
+            build/*.mcpack
+            build/*.zip
