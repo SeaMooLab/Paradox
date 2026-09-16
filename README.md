@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/Media/paradox-header.png" alt="Paradox AntiCheat Logo" width="600">
+  <img src="docs/Media/paradox-header.png" alt="Paradox AntiCheat Logo" width="96%">
 
   <h1>Paradox AntiCheat</h1>
   <p><strong>High-performance security for Minecraft Bedrock (Realms &amp; BDS)</strong></p>
@@ -8,10 +8,10 @@
     <a href="https://minecraft.net">
       <img src="https://img.shields.io/badge/Minecraft%20Bedrock-v1.26.50-brightgreen?style=for-the-badge&amp;logo=minecraft" alt="Compatibility">
     </a>
-    <a href="https://discord.gg/qVd53N2xhq">
+    <a href="https://discord.stomp.zone">
       <img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Discord">
     </a>
-    <a href="https://visual1mpact.github.io/Paradox_AntiCheat/#/">
+    <a href="https://seamoolab.github.io/Paradox/">
       <img src="https://img.shields.io/badge/Documentation-Read%20Now-007ACC?style=for-the-badge&amp;logo=gitbook&amp;logoColor=white" alt="Docs">
     </a>
   </p>
@@ -69,13 +69,13 @@
     <a href="https://www.codefactor.io/repository/github/Visual1mpact/paradox_anticheat">
       <img src="https://img.shields.io/codefactor/grade/github/Visual1mpact/paradox_anticheat/rewrite?style=for-the-badge&amp;logo=codefactor" alt="CodeFactor Grade">
     </a>
-    <a href="https://github.com/Visual1mpact/Paradox_AntiCheat/releases">
+    <a href="https://github.com/SeaMooLab/Paradox/releases">
       <img src="https://img.shields.io/github/downloads/Visual1mpact/Paradox_AntiCheat/total?style=for-the-badge&amp;color=blue" alt="Total Downloads">
     </a>
-    <a href="https://github.com/Visual1mpact/Paradox_AntiCheat/releases/latest">
+    <a href="https://github.com/SeaMooLab/Paradox/releases/latest">
       <img src="https://img.shields.io/github/downloads/Visual1mpact/Paradox_AntiCheat/latest/total?style=for-the-badge&amp;color=teal" alt="Latest Downloads">
     </a>
-    <a href="https://github.com/Visual1mpact/Paradox_AntiCheat/commits">
+    <a href="https://github.com/SeaMooLab/Paradox/commits">
       <img src="https://img.shields.io/github/commit-activity/m/Visual1mpact/Paradox_AntiCheat?style=for-the-badge" alt="Commit Activity">
     </a>
     <a href="LICENSE">
@@ -91,7 +91,7 @@
 <h3>1. Installation</h3>
 <ol>
   <li>
-    Download the latest release from the <a href="https://github.com/Visual1mpact/Paradox_AntiCheat/releases">Releases</a> page based on your server setup:
+    Download the latest release from the <a href="https://github.com/SeaMooLab/Paradox/releases">Releases</a> page based on your server setup:
     <ul>
       <li><strong>Realms &amp; Singleplayer:</strong> Download the <code>.mcpack</code> file.</li>
       <li><strong>Bedrock Dedicated Server (BDS):</strong> Download the <code>.zip</code> file.</li>
@@ -192,8 +192,8 @@
   </li>
   <li>
     <p><strong>Clone your repository:</strong></p>
-    <pre><code>git clone https://github.com/&lt;your-github-username&gt;/Paradox_AntiCheat.git
-cd Paradox_AntiCheat</code></pre>
+    <pre><code>git clone https://github.com/&lt;your-github-username&gt;/Paradox.git
+cd Paradox</code></pre>
   </li>
   <li>
     <p><strong>Install dependencies &amp; launch workspace:</strong></p>
@@ -207,11 +207,11 @@ code .</code></pre>
 <h2>🤝 Contributing</h2>
 <p>We welcome contributions! Follow these step-by-step instructions to get started:</p>
 <ol>
-  <li><strong>Fork the Repository:</strong> Visit the <a href="https://github.com/Visual1mpact/Paradox_AntiCheat/fork">Paradox AntiCheat Repository</a> and click <strong>Fork</strong>.</li>
+  <li><strong>Fork the Repository:</strong> Visit the <a href="https://github.com/SeaMooLab/Paradox/fork">Paradox Repository</a> and click <strong>Fork</strong>.</li>
   <li>
     <strong>Clone your fork:</strong>
-    <pre><code>git clone https://github.com/&lt;your-github-username&gt;/Paradox_AntiCheat.git
-cd Paradox_AntiCheat</code></pre>
+    <pre><code>git clone https://github.com/&lt;your-github-username&gt;/Paradox.git
+cd Paradox</code></pre>
   </li>
   <li>
     <strong>Install dependencies:</strong>
@@ -236,5 +236,5 @@ git commit -m "feat: add new speed detection module"</code></pre>
 <hr>
 
 <div align="center">
-  <p>Need help? Join our <a href="https://discord.gg/qVd53N2xhq">Discord Server</a> for support and discussion.</p>
+  <p>Need help? Join our <a href="https://discord.stomp.zone">Discord Server</a> for support and discussion.</p>
 </div>
