@@ -17,7 +17,7 @@ export const whitelistCommand: Command = {
         formType: "ActionFormData",
         title: "Whitelist Management",
         description:
-            "Manage the server whitelist.\n\n" + "7 Add a player to grant them access.\n" + "7 Remove a player to revoke access.\n" + "7 List all whitelisted players currently on the server.\n" + "7 Player names are case-sensitive.\n\n",
+            "Manage the server whitelist.\n\n" + "§7• Add a player to grant them access.\n" + "§7• Remove a player to revoke access.\n" + "§7• List all whitelisted players currently on the server.\n" + "§7• Player names are case-sensitive.\n\n",
         commandOrder: "command-arg",
         actions: [
             {
@@ -99,7 +99,7 @@ export const whitelistCommand: Command = {
         if (!message) return;
         const action = args.shift()?.toLowerCase();
         if (!["add", "remove", "list"].includes(action as string)) {
-            message.sender.sendMessage("oc[Paradox] Invalid action. Use `add`, `remove`, or `list`.");
+            message.sender.sendMessage("§o§c[Paradox] Invalid action. Use `add`, `remove`, or `list`.");
             return;
         }
 
@@ -108,13 +108,13 @@ export const whitelistCommand: Command = {
         if (action === "list") {
             const playerNames = Object.keys(whitelist);
             if (playerNames.length === 0) {
-                message.sender.sendMessage("2[7Paradox2]o7 No players are currently whitelisted.");
+                message.sender.sendMessage("§2[§7Paradox§2]§o§7 No players are currently whitelisted.");
             } else {
-                message.sender.sendMessage("2[7Paradox2]o7 Whitelisted Players:");
+                message.sender.sendMessage("§2[§7Paradox§2]§o§7 Whitelisted Players:");
                 playerNames.forEach((name) => {
                     const record = whitelist[name];
                     if (record) {
-                        message.sender.sendMessage(` o7| [f${name}7] (ID: ${record.id})`);
+                        message.sender.sendMessage(` §o§7| [§f${name}§7] (ID: ${record.id})`);
                     }
                 });
             }
@@ -123,13 +123,13 @@ export const whitelistCommand: Command = {
 
         const playerName = args.join(" ").trim().replace(/["@]/g, "");
         if (!playerName) {
-            message.sender.sendMessage("oc[Paradox] Please provide a valid player name.");
+            message.sender.sendMessage("§o§c[Paradox] Please provide a valid player name.");
             return;
         }
 
         if (action === "add") {
             if (playerName in whitelist) {
-                message.sender.sendMessage(`oc[Paradox] Player "${playerName}c" is already in the whitelist.`);
+                message.sender.sendMessage(`§o§c[Paradox] Player "${playerName}§c" is already in the whitelist.`);
                 return;
             }
 
@@ -138,18 +138,18 @@ export const whitelistCommand: Command = {
 
             whitelist[playerName] = { id: playerId };
             await whitelistDB.set("players", whitelist);
-            message.sender.sendMessage(`2[7Paradox2]o7 Player "${playerName}7" has been added to the whitelist.`);
+            message.sender.sendMessage(`§2[§7Paradox§2]§o§7 Player "${playerName}§7" has been added to the whitelist.`);
         }
 
         if (action === "remove") {
             if (!(playerName in whitelist)) {
-                message.sender.sendMessage(`oc[Paradox] Player "${playerName}c" is not in the whitelist.`);
+                message.sender.sendMessage(`§o§c[Paradox] Player "${playerName}§c" is not in the whitelist.`);
                 return;
             }
 
             delete whitelist[playerName];
             await whitelistDB.set("players", whitelist);
-            message.sender.sendMessage(`2[7Paradox2]o7 Player "${playerName}7" has been removed from the whitelist.`);
+            message.sender.sendMessage(`§2[§7Paradox§2]§o§7 Player "${playerName}§7" has been removed from the whitelist.`);
         }
     },
 };
