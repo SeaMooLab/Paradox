@@ -8,7 +8,6 @@ import { glob } from "glob";
 
 // Direct async imports to prevent duplicate execution loops
 import { buildBundle } from "./esbuild.js";
-import { obfuscateBundle } from "./obfuscate.js";
 
 const { path7z } = pkg;
 const BUILD_DIR = "build";
@@ -256,9 +255,6 @@ async function main() {
 
     console.log("[Build] Executing single-pass esbuild compilation...");
     await buildBundle();
-
-    console.log("[Build] Executing single-pass obfuscator...");
-    await obfuscateBundle();
 
     if (wantZip) await createArchive("zip");
     if (wantMcpack) await createArchive("mcpack");
