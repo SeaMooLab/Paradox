@@ -1410,3 +1410,4 @@ export const claimCommand: Command = {
         }
     },
 };
+

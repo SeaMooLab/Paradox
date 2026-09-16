@@ -44,3 +44,4 @@ export const inventoryEditorCommand: Command = {
         showInventoryEditor(message.sender);
     },
 };
+

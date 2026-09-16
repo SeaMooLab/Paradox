@@ -122,3 +122,4 @@ export function stopInventoryMovementCheck(): void {
 
     pendingValidationSet.clear();
 }
+

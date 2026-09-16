@@ -204,3 +204,4 @@ export const punishCommand: Command = {
         }
     },
 };
+

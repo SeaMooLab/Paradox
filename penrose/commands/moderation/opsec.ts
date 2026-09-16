@@ -90,3 +90,4 @@ export const opsecCommand: Command = {
         targetPlayer.sendMessage(`§2[§7Paradox§2]§o§7 Your security clearance has been updated to level ${newClearance}§7 by "${message.sender.name}§7".`);
     },
 };
+

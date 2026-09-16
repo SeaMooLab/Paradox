@@ -55,3 +55,4 @@ export const invalidMovementVectorCommand: Command = {
         player.sendMessage(`§2[§7Paradox§2]§o§7 Invalid Vector detection has been ${isEnabled ? "§aenabled" : "§4disabled"}§7.`);
     },
 };
+

@@ -138,3 +138,4 @@ export function stopHitReachCheck(): void {
 
     victimHistory.clear();
 }
+

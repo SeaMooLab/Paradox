@@ -96,3 +96,4 @@ export const paradoxInfoCommand: Command = {
         showInfoForm(sender);
     },
 };
+

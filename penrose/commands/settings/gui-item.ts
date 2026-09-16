@@ -77,3 +77,4 @@ export const guiItemCommand: Command = {
         player.sendMessage(`§2[§7Paradox§2]§o§7 Any player using this item will now open the Paradox GUI.`);
     },
 };
+

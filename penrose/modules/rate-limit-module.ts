@@ -594,3 +594,4 @@ export function stopPacketHandler(): void {
     playerLeaveRef = null;
     playerSpawnRef = null;
 }
+

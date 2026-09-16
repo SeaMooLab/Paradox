@@ -37,3 +37,4 @@ export const chunkBordersCommand: Command = {
         toggleChunks(message.sender);
     },
 };
+

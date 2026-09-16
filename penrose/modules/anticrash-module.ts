@@ -125,3 +125,4 @@ export function stopAntiCrash(): void {
         packetHandlerRef = null;
     }
 }
+

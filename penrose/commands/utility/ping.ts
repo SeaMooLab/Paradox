@@ -77,3 +77,4 @@ export const pingCommand: Command = {
         sender.sendMessage(listOutput.join("\n"));
     },
 };
+

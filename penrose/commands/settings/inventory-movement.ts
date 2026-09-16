@@ -55,3 +55,4 @@ export const inventoryMovementCommand: Command = {
         player.sendMessage(`§2[§7Paradox§2]§o§7 Inventory Movement detection has been ${isEnabled ? "§aenabled" : "§4disabled"}§7.`);
     },
 };
+

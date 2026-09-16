@@ -324,3 +324,4 @@ export const command: Command = {
         commandHandler.registerCommand(registry, allCommands);
     },
 };
+

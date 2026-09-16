@@ -362,3 +362,4 @@ export interface PlayerFlagRecord extends DatabaseValueObject {
  * Maps player IDs to historic violation flag records.
  */
 export type FlagDatabaseSchema = Record<PlayerID, PlayerFlagRecord>;
+

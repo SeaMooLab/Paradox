@@ -183,3 +183,4 @@ export const banCommand: Command = {
         banPlayer(playerName);
     },
 };
+

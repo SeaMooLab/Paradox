@@ -64,3 +64,4 @@ export function stopSelfAttackCheck(): void {
     // Process the entity hit events
     EventCoordinator.unsubscribeAfter("entityHitEntity", handleSelfAttack);
 }
+

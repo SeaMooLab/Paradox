@@ -88,3 +88,4 @@ export const unbanCommand: Command = {
         message.sender.sendMessage(`§2[§7Paradox§2]§o§7 Player "${playerName}§7" has been unbanned from the ${isGlobal ? "global" : "local"} ban list.`);
     },
 };
+

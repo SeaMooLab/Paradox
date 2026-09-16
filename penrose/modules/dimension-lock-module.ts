@@ -90,3 +90,4 @@ export function stopDimensionLock(): void {
     EventCoordinator.unsubscribeAfter("playerDimensionChange", dimensionChangeSub);
     dimensionChangeSub = undefined;
 }
+

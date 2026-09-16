@@ -24,3 +24,4 @@ export function stopDeathCoords(): void {
     EventCoordinator.unsubscribeAfter("entityDie", deathSubscription);
     deathSubscription = undefined;
 }
+

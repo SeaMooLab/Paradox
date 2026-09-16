@@ -104,3 +104,4 @@ export const environmentCommand: Command = {
         return Promise.resolve(false);
     },
 };
+

@@ -113,3 +113,4 @@ export const broadcastCommand: Command = {
         sender.sendMessage("§2[§7Paradox§2]§o§7 Global broadcast sent successfully.");
     },
 };
+

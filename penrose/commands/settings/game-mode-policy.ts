@@ -215,3 +215,4 @@ export const gameModeCommand: Command = {
         await saveAndSyncGamemodeState(player, modeStates, needsInspectionUpdate);
     },
 };
+

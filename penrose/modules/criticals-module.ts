@@ -89,3 +89,4 @@ export function startCriticalsCheck(): void {
 export function stopCriticalsCheck(): void {
     EventCoordinator.unsubscribeBefore("entityHurt", handleHurtEvent);
 }
+

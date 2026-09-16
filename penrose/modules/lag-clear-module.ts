@@ -218,3 +218,4 @@ export function stopLagClear(): void {
     globalEndTick = null;
     lastMessageIndex = -1;
 }
+

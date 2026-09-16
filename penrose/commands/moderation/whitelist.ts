@@ -117,3 +117,4 @@ export const whitelistCommand: Command = {
         }
     },
 };
+

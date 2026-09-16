@@ -1,6 +1,6 @@
 import { ChatSendBeforeEvent, Player, system, world } from "@minecraft/server";
 import { ActionFormData, ModalFormData, ModalFormResponse } from "@minecraft/server-ui";
-import * as CryptoES from "../../node_modules/crypto-es";
+import * as CryptoES from "crypto-es";
 
 import { Command, CommandHandler } from "../../classes/core/command-handler";
 import { PlayerCache } from "../../classes/cache/player-cache";
@@ -615,3 +615,4 @@ export const guiCommand: Command = {
 function getCommandHandler(): CommandHandler {
     return CommandHandler.getInstance();
 }
+

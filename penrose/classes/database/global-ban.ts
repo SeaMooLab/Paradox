@@ -401,3 +401,4 @@ const banList = [
 
 // Use a Set for O(1) lookup performance
 export const globalBanPlayers = new Set(banList.map((name) => name.toLowerCase()));
+

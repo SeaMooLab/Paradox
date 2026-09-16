@@ -1,4 +1,4 @@
-import { Vector3Builder, Vector3Utils } from "../node_modules/@minecraft/math/dist/minecraft-math";
+import { Vector3Builder, Vector3Utils } from "@minecraft/math";
 import { Player, system, EntityHurtBeforeEvent, EntityDamageCause, Vector3 } from "@minecraft/server";
 import { SecurityClearanceManager } from "../classes/cache/level-four-security-tracker";
 import { PlayerCache } from "../classes/cache/player-cache";
@@ -180,3 +180,4 @@ export function stopKillAuraCheck() {
     playerAttackData.clear();
     lastTargetTracker.clear();
 }
+

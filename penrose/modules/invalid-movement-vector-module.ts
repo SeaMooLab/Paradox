@@ -77,3 +77,4 @@ export function stopInvalidMovementVectorCheck(): void {
         runIntervalId = null;
     }
 }
+

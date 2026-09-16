@@ -52,3 +52,4 @@ export const pathingCommand: Command = {
         await paradoxModulesDB.set(MODULE_KEY, moduleData);
     },
 };
+

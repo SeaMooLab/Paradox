@@ -92,3 +92,4 @@ export function stopAutoClicker(): void {
     EventCoordinator.unsubscribeAfter("playerLeave", handlePlayerLeave);
     playerClickData.clear();
 }
+

@@ -399,3 +399,4 @@ export const scriptureCommand: Command = {
         handlePersonalRoute(player, enable, disable);
     },
 };
+

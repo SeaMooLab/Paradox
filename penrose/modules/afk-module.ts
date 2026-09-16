@@ -190,3 +190,4 @@ export function stopAFKChecker(): void {
         playerLeaveCallback = undefined;
     }
 }
+

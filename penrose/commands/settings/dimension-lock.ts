@@ -217,3 +217,4 @@ export const dimensionLockCommand: Command = {
         await handleDimensionToggle(sender, moduleData, arg0, args[1]?.toLowerCase());
     },
 };
+

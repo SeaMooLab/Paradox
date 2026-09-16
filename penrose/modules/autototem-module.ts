@@ -164,3 +164,4 @@ export function stopAutoTotemCheck(): void {
 
     playerTotemData.clear();
 }
+

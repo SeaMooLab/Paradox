@@ -215,3 +215,4 @@ export const platformBlockCommand: Command = {
         await updatePlatformState(player, platform, blockPlatform, platformSettings);
     },
 };
+

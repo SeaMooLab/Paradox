@@ -67,3 +67,4 @@ export const nameSpoofCommand: Command = {
         }
     },
 };
+

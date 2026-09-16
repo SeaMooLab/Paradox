@@ -221,3 +221,4 @@ export function stopPacketListener(): void {
 
     console.log("[Paradox] Packet spam detection stopped.");
 }
+

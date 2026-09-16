@@ -89,3 +89,4 @@ export function stopLockdown(): void {
     EventCoordinator.unsubscribeAfter("playerSpawn", handlePlayerSpawn);
     world.setDynamicProperty("lockdown_b", false);
 }
+

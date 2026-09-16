@@ -234,3 +234,4 @@ function cancelTeleportRequest(receiverId: string) {
         pendingRequests.delete(receiverId);
     }
 }
+

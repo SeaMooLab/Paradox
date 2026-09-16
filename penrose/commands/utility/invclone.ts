@@ -232,3 +232,4 @@ export const invCloneCommand: Command = {
         handleInventoryCloning(message.sender, dimension, base, args);
     },
 };
+

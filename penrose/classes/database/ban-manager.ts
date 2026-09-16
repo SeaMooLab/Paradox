@@ -77,3 +77,4 @@ export function refreshGlobalBanCache(): void {
 export function isGloballyBanned(playerName: string): boolean {
     return activeBans.has(playerName.toLowerCase());
 }
+

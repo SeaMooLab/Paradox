@@ -144,3 +144,4 @@ export const renameCommand: Command = {
         sender.sendMessage(`§2[§7Paradox§2]§o§7 ${target.name} is now known as "${newAlias}" (UI: ${showUI ? "Enabled" : "Disabled"}).`);
     },
 };
+

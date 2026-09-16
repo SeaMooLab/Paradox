@@ -213,3 +213,4 @@ export function stopPathingMonitor(): void {
 
     playerData.clear();
 }
+

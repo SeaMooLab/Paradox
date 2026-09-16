@@ -135,3 +135,4 @@ export const verses = [
     "Revelation 21:4 — He will wipe away every tear from their eyes.",
     "Revelation 22:13 — I am the Alpha and the Omega, the first and the last, the beginning and the end.",
 ];
+

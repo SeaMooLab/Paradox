@@ -407,3 +407,4 @@ export const chestForensicCommand: Command = {
         await handlePlayerLookup(player, inputArg);
     },
 };
+

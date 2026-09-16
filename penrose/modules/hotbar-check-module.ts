@@ -52,3 +52,4 @@ export function startHotbarCheck(): void {
 export function stopHotbarCheck(): void {
     EventCoordinator.unsubscribeAfter("playerHotbarSelectedSlotChange", handleHotbarChange);
 }
+

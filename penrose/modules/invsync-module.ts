@@ -647,3 +647,4 @@ export async function clearAllAuditLogs(): Promise<void> {
 
     alertStaffSystem("§2[§7Paradox§2]§o§7 Inventory audit logs cleared.");
 }
+

@@ -574,3 +574,4 @@ export function subscribeToWorldInitialize() {
 }
 
 export { allCommands, paradoxModulesDB, channelsDB, disabledCommandsDB, commandHandler, whitelistDB, allowlistDB, banlistDB, warnsDB, invSyncAuditDB, chestLockDB, playerMetadataDB, homesDB, waypointsDB, flagsDB, landClaimsDB };
+

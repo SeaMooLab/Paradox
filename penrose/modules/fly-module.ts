@@ -337,3 +337,4 @@ export function stopFlyCheck(): void {
     landingLocations.clear();
     tridentUsage.clear();
 }
+

@@ -180,3 +180,4 @@ export function startScaffoldCheck() {
     EventCoordinator.subscribeBefore("playerPlaceBlock", blockPlacementCallback);
     EventCoordinator.subscribeBefore("playerLeave", playerLeaveCallback);
 }
+

@@ -437,3 +437,4 @@ export function stopXrayDetection() {
     safeZoneCooldowns.clear();
     awaitingSafeZoneResponse.clear();
 }
+

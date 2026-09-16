@@ -330,3 +330,4 @@ export async function toggleChunks(sender?: Player): Promise<void> {
 
     sender.sendMessage(`§2[§7Paradox§2]§o§7 Chunk borders are now §l${debugViewersChunks.has(sender.id) ? "§aenabled§7" : "§4disabled§7"}`);
 }
+

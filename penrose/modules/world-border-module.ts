@@ -703,3 +703,4 @@ export function stopWorldBorderCheck(): void {
     playerNextCheckTickCache.clear();
     lastWarningTickCache.clear();
 }
+

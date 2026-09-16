@@ -55,3 +55,4 @@ export const visionCheckCommand: Command = {
         await paradoxModulesDB.set(MODULE_KEY, moduleData);
     },
 };
+

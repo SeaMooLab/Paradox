@@ -608,3 +608,4 @@ export class OptimizedDatabase<T extends Record<string, DatabaseValueObject>> {
         return this._getPointers().has(`${this.name}/${key}`);
     }
 }
+

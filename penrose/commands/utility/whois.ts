@@ -280,3 +280,4 @@ export const whoisCommand: Command = {
         await processWhoisExecution(sender, query);
     },
 };
+

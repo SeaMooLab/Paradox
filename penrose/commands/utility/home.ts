@@ -1,6 +1,6 @@
 import { Command } from "../../classes/core/command-handler";
 import { ChatSendBeforeEvent, Player, Vector3, world } from "@minecraft/server";
-import * as CryptoES from "../../node_modules/crypto-es";
+import * as CryptoES from "crypto-es";
 import { homesDB } from "../../event-listeners/world-initialize";
 import { PlayerCache } from "../../classes/cache/player-cache";
 import { PlayerLocationCache } from "../../classes/cache/player-location-cache";
@@ -637,3 +637,4 @@ export const homeCommand: Command = {
         }
     },
 };
+

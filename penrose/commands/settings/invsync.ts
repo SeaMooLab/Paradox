@@ -233,3 +233,4 @@ export const invSyncCommand: Command = {
         player.sendMessage(`§2[§7Paradox§2]§o§7 §cUnknown subcommand. Use §f${prefix}invsync help`);
     },
 };
+

@@ -256,3 +256,4 @@ export const setRankCommand: Command = {
         handleRankUpdate(sender, targetPlayer, rank);
     },
 };
+

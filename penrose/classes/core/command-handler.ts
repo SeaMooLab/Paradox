@@ -1,6 +1,6 @@
 // command-handler.ts
 import { Player, ChatSendBeforeEvent, system, world, PlayerSpawnAfterEvent } from "@minecraft/server";
-import * as CryptoES from "../../node_modules/crypto-es";
+import * as CryptoES from "crypto-es";
 import { ActionFormButton, GUIInstructions } from "../../types/gui-schema";
 import { GUIManager } from "../../commands/gui/form-generator";
 
@@ -443,3 +443,4 @@ export class CommandHandler {
         return this.commandCount++ < this.maxCommandsPerInterval;
     }
 }
+

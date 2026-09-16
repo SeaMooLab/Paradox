@@ -234,3 +234,4 @@ export function stopVisionCheck(): void {
     isModuleActive = false;
     playerStates.clear();
 }
+

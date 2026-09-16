@@ -414,3 +414,4 @@ export function stopNoClip(): void {
     playerData.clear();
     recentDamage.clear();
 }
+

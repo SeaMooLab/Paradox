@@ -367,3 +367,4 @@ export const pvpToggleCommand: Command = {
         handlePersonalToggle(player, system.currentTick);
     },
 };
+
